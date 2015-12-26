@@ -2,6 +2,9 @@
 	padding: 0;
 	margin: 0 auto;
 }
+body{
+	font-family: 'Raleway', sans-serif!important;
+}
 #logo{
 	background-color: #f2f2f2;
 }
@@ -23,15 +26,8 @@
 #contact{
 	background-color: #003d99;
 }
-.menu_principal{
-	font-family: 'Poiret One', cursive;
-}
-.menu_principal ul li{
-	margin: 10px 0px;
-	padding: 10px 0px;
-}
-.menu_principal ul a{
-	color: white;
+.text-white{
+	color: white!important;
 }
 .no-padding{
 	padding: 0px!important;
@@ -41,4 +37,17 @@
 }
 .full-height{
 	height: 100%;
+}
+.navbar{
+    border: 0px!important;
+    border-radius: 0px!important;
+}
+.navbar-inverse {
+    border-radius: 0px!important;
+}
+.navbar-brand, .navbar-nav > li > a {
+    text-align: center;
+}
+.dropdown-menu > li > a {
+    text-align: center;
 }
